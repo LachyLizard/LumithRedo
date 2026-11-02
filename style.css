@@ -1,3 +1,25 @@
+nav {
+    color: rgb(0, 0, 0);
+    background-color: rgb(58, 190, 93);
+    position: fixed;
+    top: 0px;
+    width: 98.95%;
+    height: 3%;
+    font-weight: bold;
+}
+
+.navLeft{
+     float:left;
+     padding: 3px;
+     left: 0px;
+}
+.navRight{
+     float:right;
+     padding: 3px;
+     right: 0px;
+     color:black;
+}
+
 body {
     margin: 0;
 }
