@@ -1,9 +1,9 @@
 nav {
     color: rgb(0, 0, 0);
-    background-color: rgb(58, 190, 93);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0px;
-    width: 98.95%;
+    width: 100%;
     height: 3%;
     font-weight: bold;
 }
@@ -20,8 +20,17 @@ nav {
      color:black;
 }
 
+.navRight:hover{
+     float:right;
+     padding: 3px;
+     right: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 180, 180);
+}
+
 body {
     margin: 0;
+    width: 100%;
 }
 
 section {
@@ -35,7 +44,7 @@ section {
     background-image: url(images/Blue.jpg);
     background-size: 100%;
     max-width: 100%;
-    height: 400px;
+    height: 300px;
     background-attachment:fixed;
 
     color:white;
