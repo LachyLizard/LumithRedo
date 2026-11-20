@@ -68,3 +68,26 @@ section h3 {
     max-width: 500px;
     height: auto;
 }
+
+.two {
+    display: flex;
+    align-items: center;
+    gap: 25%;
+    flex-direction: row-reverse;
+}
+
+.two img {
+    max-width: 500px;
+    height: auto;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+
+.three img {
+    max-width: 500px;
+    height: auto;
+}
