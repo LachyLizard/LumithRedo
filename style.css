@@ -25,7 +25,17 @@ nav {
      padding: 3px;
      right: 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(180, 180, 180);
+    background-color:rgb(32, 39, 145);
+}
+
+a {
+    text-decoration: none;
+    color:rgb(32, 39, 145);
+    text-decoration: underline;
+}
+
+a:hover {
+    color:white;
 }
 
 body {
